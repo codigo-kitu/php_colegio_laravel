@@ -1,0 +1,29 @@
+=> [34;4mIlluminate\Database\Eloquent\Collection[39;24m {#3865
+     [34mall[39m: [
+       [34;4mApp\Models\Estructura\Alumno[39;24m {#3867
+         [34mid[39m: [35m1[39m,
+         [34minsert_at[39m: "[32m2022-06-03 02:03:01[39m",
+         [34mupdate_at[39m: "[32m2022-06-03 02:03:01[39m",
+         [34mnombre[39m: "[32mLuis[39m",
+         [34mapellido[39m: "[32mPerez[39m",
+         [34mfecha_nacimiento[39m: "[32m1980-01-01[39m",
+       },
+       [34;4mApp\Models\Estructura\Alumno[39;24m {#3868
+         [34mid[39m: [35m2[39m,
+         [34minsert_at[39m: "[32m2022-06-03 02:04:33[39m",
+         [34mupdate_at[39m: "[32m2022-06-03 02:04:33[39m",
+         [34mnombre[39m: "[32mCarlos[39m",
+         [34mapellido[39m: "[32mSanchez[39m",
+         [34mfecha_nacimiento[39m: "[32m1980-02-02[39m",
+       },
+       [34;4mApp\Models\Estructura\Alumno[39;24m {#3869
+         [34mid[39m: [35m3[39m,
+         [34minsert_at[39m: "[32m2022-06-03 02:04:56[39m",
+         [34mupdate_at[39m: "[32m2022-06-03 02:04:56[39m",
+         [34mnombre[39m: "[32mRoberto[39m",
+         [34mapellido[39m: "[32mAvila[39m",
+         [34mfecha_nacimiento[39m: "[32m1983-03-03[39m",
+       },
+     ],
+   }
+

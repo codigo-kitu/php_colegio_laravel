@@ -1,0 +1,20 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-l0sNRNKZ.js",
+    "name": "app",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/Estructura/Materia/App/MateriaApp.js": {
+    "file": "assets/MateriaApp-B7KW4Paq.js",
+    "name": "MateriaApp",
+    "src": "resources/js/Estructura/Materia/App/MateriaApp.js",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-D2jpX1vH.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}

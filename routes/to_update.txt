@@ -1,0 +1,1 @@
+require_once dirname(__DIR__,1) . '/app/Lib/Estructura/Materia/Infrastructure/Route/MateriaMvcRoute.php';

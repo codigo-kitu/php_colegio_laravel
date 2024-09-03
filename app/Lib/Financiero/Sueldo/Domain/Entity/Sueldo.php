@@ -1,0 +1,120 @@
+<?php
+
+namespace App\Lib\Financiero\Sueldo\Domain\Entity;
+
+class Sueldo {
+		
+	public int $id = -1;
+	public string $created_at = '';
+	public string $updated_at = '';
+	
+	public int $id_docente = -1;
+	public string $id_docente_Descripcion = '';
+
+	public int $anio = 0;
+	public int $mes = 0;
+	public float $valor = 0.0;
+	public int $cobrado = 0;
+	
+	function __construct () {
+		
+		$this->id = -1;
+		$this->created_at = '';
+		$this->updated_at = '';
+	
+ 		$this->id_docente=-1;
+		$this->id_docente_Descripcion='';
+
+ 		$this->anio=0;
+ 		$this->mes=0;
+ 		$this->valor=0.0;
+ 		$this->cobrado=0;
+    }
+	
+	/*-------------------- GETTERs -------------------*/
+	
+	public function getId(): ?int {
+		return $this->id;
+	}
+	
+	public function getCreated_at(): ?string {
+		return $this->created_at;
+	}
+	
+	public function getUpdated_at(): ?string {
+		return $this->updated_at;
+	}
+	
+    
+    
+    
+    
+	public function  getIdDocente() : ?int {
+		return $this->id_docente;
+	}
+	
+	public function  getid_docente_Descripcion() : string {
+		return $this->id_docente_Descripcion;
+	}
+    
+	public function  getAnio() : ?int {
+		return $this->anio;
+	}
+    
+	public function  getMes() : ?int {
+		return $this->mes;
+	}
+    
+	public function  getValor() : ?float {
+		return $this->valor;
+	}
+    
+	public function  getCobrado() : ?int {
+		return $this->cobrado;
+	}
+	
+	/*-------------------- SETTERs -------------------*/
+	
+	public function setId(int $id): void {
+		$this->id = $id;
+	}
+	
+	public function setCreated_at(string $created_at): void {
+		$this->created_at = $created_at;
+	}
+	
+	public function setUpdated_at(string $updated_at): void {
+		$this->updated_at = $updated_at;
+	}
+	
+    		
+    		
+    		
+    
+	public function setIdDocente(int $new_id_docente) {
+		$this->id_docente = $new_id_docente;
+	}		
+    
+	public function setAnio(int $new_anio) {
+		$this->anio = $new_anio;
+	}		
+    
+	public function setMes(int $new_mes) {
+		$this->mes = $new_mes;
+	}		
+    
+	public function setValor(float $new_valor) {
+		$this->valor = $new_valor;
+	}		
+    
+	public function setCobrado(int $new_cobrado) {
+		$this->cobrado = $new_cobrado;
+	}		
+	
+	//FKs
+	
+	public $docente = null;
+	
+	//RELACIONES
+	
+}
